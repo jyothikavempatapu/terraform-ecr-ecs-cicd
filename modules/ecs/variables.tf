@@ -1,0 +1,15 @@
+variable "project_name"       { type = string }
+variable "environment"        { type = string }
+variable "aws_region"         { type = string }
+variable "aws_account_id"     { type = string }
+variable "ecr_repo_url"       { type = string }
+variable "ecr_repo_name"      { type = string }
+variable "task_execution_arn" { type = string }
+variable "task_role_arn"      { type = string }
+variable "container_port"     { type = number }
+variable "task_cpu"           { type = string }
+variable "task_memory"        { type = string }
+variable "desired_count"      { type = number }
+variable "vpc_cidr"           { type = string }
+variable "public_subnet_cidr" { type = string }
+variable "availability_zone"  { type = string }
